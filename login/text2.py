@@ -12,4 +12,4 @@ n=np.array([
     [4,6]
 ])
 c=m@n
-print(c)
+print("mutiplication",c)
