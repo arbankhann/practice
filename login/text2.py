@@ -7,4 +7,9 @@ m=np.array([
     [1,2],
     [2,3]
 ])
-print(m)
+n=np.array([
+    [2,4],
+    [4,6]
+])
+c=m@n
+print(c)
