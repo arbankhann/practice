@@ -10,6 +10,8 @@ m=np.array([
 n=np.array([
     [2,4],
     [4,6]
-])
+])q
 c=m@n
 print("mutiplication",c)
+d=np.linalg.det(m)
+print(d)
