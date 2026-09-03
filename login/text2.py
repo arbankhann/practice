@@ -15,5 +15,4 @@ c=m@n
 print("mutiplication",c)
 d=np.linalg.det(m)
 print(d)
-n=10
-print(n)
+
