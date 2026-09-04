@@ -52,14 +52,77 @@ import numpy as np
 # h=3
 # x=np.round(np.sqrt(h**2-p**2))
 # print(x)
-radian=np.pi/6
-degree=np.deg2rad
+# radian=np.pi/6
+# degree=np.deg2rad
 # degree=np.rad2deg(radian)
 # print(degree)
-sin_value=np.sin(radian)
-print(sin_value)
-cos_value=np.cos(radian)
-print(cos_value)
-cosec_value=1/np.sin(radian)
-print(cosec_value)
+# sin_value=np.sin(radian)
+# print(sin_value)
+# cos_value=np.cos(radian)
+# print(cos_value)
+# cosec_value=1/np.sin(radian)
+# print(cosec_value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# test
+# angle=30
+# radian=np.deg2rad(angle)
+# sin_value=np.sin(radian)
+# print("sin_value=",radian)
+# cos_value=np.cos(radian)
+# print(cos_value)
+# tan_value=np.tan(radian)
+# print(tan_value)
+
+# cosec_value=1/np.sin(radian)
+# print(cosec_value)
+# sec_value=np.round(1/np.cos(radian))
+# print(sec_value)
+
+# radian=np.pi/4
+# degree=np.rad2deg(radian)
+# sin_value=np.sin(degree)
+# print(sin_value)
+# cot_value=1/np.tan(degree)
+# print(cot_value)
+# p=10
+# b=20
+# c=np.hypot(p,b)
+# print(c)
+
+# p=10
+# h=22
+# b=np.sqrt(h**2-p**2)
+# print(b)
+
+# b=20
+# h=22
+# p=np.sqrt(h**2-b**2)
+# print(p)
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,4 +1,4 @@
-# import numpy as np 
+import numpy as np 
 # x=np.array([1,2,3,4,5])
 # h=0.0001
 # f=lambda x:x**2
@@ -10,10 +10,10 @@
 
 # import numpy as np 
 # x=np.array([1,2,3,4,5])
-# # x=np.linspace(2,5,1000)
+# x=np.linspace(2,5,100)
 # y=x**2
 # dy_dx=np.gradient(y,x)
-# print(dy_dx[0])
+# print(dy_dx)
 
 # import numpy as np
 
@@ -44,6 +44,18 @@
 # y=x**2 
 # area=np.trapz(y,x)
 # print(area)
+
+
+# x=np.array([1,2,3,4,5])
+# y=x**2
+# dy_dx=np.gradient(y,x)
+# print(dy_dx)
+
+
+x=np.linspace(0,5,100)
+y=x**2
+dy_dx=np.trapz(y,x)
+print(dy_dx)
 
 
 
