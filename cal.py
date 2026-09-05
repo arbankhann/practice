@@ -54,8 +54,8 @@ import numpy as np
 
 x=np.linspace(0,5,100)
 y=x**2
-dy_dx=np.trapz(y,x)
-print(dy_dx)
+INTEGRATION=np.trapz(y,x)
+print(INTEGRATION)
 
 
 
