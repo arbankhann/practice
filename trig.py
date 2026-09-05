@@ -58,7 +58,7 @@ import numpy as np
 # print(degree)
 # sin_value=np.sin(radian)
 # print(sin_value)
-# cos_value=np.cos(radian)
+# # cos_value=np.cos(radian)
 # print(cos_value)
 # cosec_value=1/np.sin(radian)
 # print(cosec_value)
