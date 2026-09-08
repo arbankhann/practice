@@ -1,3 +1,4 @@
+# ?Bayes formulaa
 import numpy as np
 
 P_A = np.array(0.2)
