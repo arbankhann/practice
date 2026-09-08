@@ -1,4 +1,4 @@
-import pandas as pd 
+# import pandas as pd 
 # print(pd.__version__)
 # data={
 #     "name":["ak","ik","wk"],
@@ -82,8 +82,37 @@ import pandas as pd
 # json
 # m=pd.read_json("data.json")
 # print(m)
+# print(m.head(10))
 # print(m.to_string())
-n=pd.read_csv("akk.csv")
+# n=pd.read_csv("akk.csv")
 # print(n.head(10))
 # print(n.tail(10))
-print(n.info())
+# print(n.info())
+
+
+# a=pd.array([1,2,3,4,5])
+# value=pd.Series(a,index=["x1","x2","x3","x4","x5"])
+# print(value)
+
+# a={
+#     "number":[1,2,3,4,5],
+#     "name:":["ak","zk","jk","nk","kk"]
+# }
+# value=pd.DataFrame(a)
+# print(value)
+# import numpy as np
+
+# dice=np.random.choice([1,2,3,4,5,6],size=2)
+# even=np.sum(dice%2==0)
+# probability=even/2
+# print(dice)
+# print(even)
+# print(probability)
+
+
+import pandas as pd 
+a={
+    "name":["ak","jk","rk"],
+    "roll_no":[1,2,3]
+}
+print(pd.Series(a))
