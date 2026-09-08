@@ -24,13 +24,13 @@
 
 # even = np.sum(dice % 2 == 0)
 
-# probability = even / 2
+probability = even / 2
 
-# print(dice)
-# print(even)
-# print(probability)
-# dice=np.random.choice([1,2,3,4,5,6])
-# print(dice)
+print(dice)
+print(even)
+print(probability)
+dice=np.random.choice([1,2,3,4,5,6])
+print(dice)
 
 
 import numpy as np 
