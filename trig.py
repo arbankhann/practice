@@ -63,6 +63,9 @@ import numpy as np
 # cosec_value=1/np.sin(radian)
 # print(cosec_value)
 
+cosec_value=1/np.sin(radian)
+print(cosec_value)
+
 
 
 
