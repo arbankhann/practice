@@ -12,7 +12,7 @@ V=np.array([1,2,3,4,5,6,6])
 print(np.median(V))
 mode1=mode(V)
 print(mode1)
-
+# statitics
 a=[1,2,3,4,5]
 mean_value=np.mean(a)
 print(mean_value)
