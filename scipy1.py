@@ -143,14 +143,14 @@
 
 
 # Breadth first order 
-import numpy as np 
-from scipy.sparse import csr_matrix
-from scipy.sparse.csgraph import breadth_first_order
-arr=np.array([
-    [1,2,3,0],
-    [2,7,0,0],
-    [2,0,9,0],
-    [2,0,9,0]
-])
-bfo=csr_matrix(arr)
-print(breadth_first_order(bfo,1))
+# import numpy as np 
+# from scipy.sparse import csr_matrix
+# from scipy.sparse.csgraph import breadth_first_order
+# arr=np.array([
+#    [0,1,2],
+#     [1,0,0],
+#     [2,0,0]
+
+# ])
+# bfo=csr_matrix(arr)
+# print(breadth_first_order(bfo,1))
