@@ -21,7 +21,7 @@ import numpy as np
 
 # y = x**2
 
-# # dy_dx = np.gradient(y, x)
+# dy_dx = np.gradient(y, x)
 # dy_dx=2*x
 
 # print(dy_dx)
